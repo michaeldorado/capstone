@@ -12,19 +12,19 @@ The dataset used for this notebook was found on data.gov, and published by the N
 
 
 ### Walkthrough Demo
-
+(TBD)
 ...
 ...
 ...
 
 ### Project Flowchart
-
+(TBD)
 ...
 ...
 ...
 
 ### Project Organization
-
+(TBD)
 ...
 ...
 ...
@@ -33,34 +33,34 @@ The dataset used for this notebook was found on data.gov, and published by the N
     - https://drive.google.com/drive/folders/1dePFXd1pqRGa6UPXgZ2p4HVrS8XknXEP?usp=sharing
 
 * `model`
-    - joblib dump of final model / model object
+    - joblib dump of final model / model object (TBD)
 
 * `notebooks`
-    - contains all final notebooks involved in the project
+    - contains all final notebooks involved in the project (TBD)
 
 * `reports`
-    - contains final report which summarises the project
+    - contains final report which summarises the project (TBD)
 
 * `references`
     - https://catalog.data.gov/dataset/alternative-fueling-station-locations-422f2
 
 * `src`
-    - Contains the project source code (refactored from the notebooks)
+    - Contains the project source code (refactored from the notebooks) [(TBD)]
 
 * `.gitignore`
-    - Part of Git, includes files and folders to be ignored by Git version control
+    - Part of Git, includes files and folders to be ignored by Git version control (TBD)
 
 * `capstine_env.yml`
-    - Conda environment specification
+    - Conda environment specification (TBD)
 
 * `Makefile`
-    - Automation script for the project
+    - Automation script for the project (TBD)
 
 * `README.md`
     - https://github.com/michaeldorado/capstone/edit/main/README.md
 
 * `LICENSE`
-    - Project license
+    - Project license (TBD)
 
 ### Dataset
 
