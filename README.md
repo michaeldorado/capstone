@@ -1,4 +1,4 @@
-## Michael Dorado's Capstone (Last Revised 3/11/2024)
+## Michael Dorado's Capstone (Last Revised 5/04/2024)
 =========================
 
 ### Project Overview  
@@ -24,23 +24,41 @@ The dataset used for this notebook was published by the National Renewable Energ
 ## The Big Idea
 - Time Series Forecasting can help measure the growth of alternative fuel stations infrastructure in the United States. Through Time Series Forecasting, consumers can make informed decisions when deciding between an electric or gas-powered vehicle purchase.
 
-### Walkthrough Demo
-(TBD)
-...
-...
-...
+## Data Cleaning Summary
+- Original dataframe shape (56800, 65)
+- Modeling dataframe shape (316, 1)
 
-### Project Flowchart
-(TBD)
-...
-...
-...
+## EDA Summary
+- Trend is positive.
+- Seasonality is highest during January and June.
+- Residual shows slight seasonality, notable variance at the end.
+- Data is non-stationary, its statistical properties, such as mean and variance, change over time.
 
-### Project Organization
-(TBD)
-...
-...
-...
+## Baseline Model Summary
+- Rolling Moving Average with a 2-month window was used for the Baseline.
+- Mean % Error = -132.92%
+- Underestimates the original data
+- 2-month window size provides finer granularity and sensitivity variations in the data.
+
+## Linear Regression Findings
+- 𝑅^2 = 7.8% 
+- Correlation between Sum States by Date Variability and Time Index is low.
+- From the plotted chart we can visualize the future trend, 2023 through 2035, is a positive trend, with a (m = 25).
+
+## Pytorch Time Series Forecasting Findings
+- The Mean Squared Error (MSE) on the testing data was approximately 0.277397. 
+- From the plotted chart we can visualize the trend of the number of predicted AFS over the years 2023 through 2035. It is a positive with a (m = 0.1).
+
+## Considerations
+- For each EV charged, there are 6 gas powered vehicles fueled
+EV market in the US expected to grow 1,500% by the year 2035
+Although the current ratio of EV per EV Station is better than the gas powered vehicle infrastructure (even with the turnaround factored in), to maintain a healthy ratio, the growth of EV stations would have to grow by at least 130% to keep a 300 EV per 1 EV station ratio.
+
+## Findings and Conclusion
+- Charging stations infrastructure must have a yearly rate of change of ~6.5% to keep a healthy vehicles to charging stations infrastructure ratio.
+- Linear regression slope = 25
+- Pytorch Time Series Forecast slope = 0.1
+- EV Consumers would face charging stations infrastructure challenges.
 
 * `data` 
     - https://drive.google.com/drive/folders/1dePFXd1pqRGa6UPXgZ2p4HVrS8XknXEP?usp=sharing
