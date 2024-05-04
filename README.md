@@ -81,25 +81,9 @@ Although the current ratio of EV per EV Station is better than the gas powered v
     - https://catalog.data.gov/dataset/alternative-fueling-station-locations-422f2
     - https://drive.google.com/file/d/1uZ5s6nGSdIEIW1o1OMtTaLCXAZ_Tq1hY/view?usp=sharing
 
-* `src`
-    - Contains the project source code (refactored from the notebooks) [(TBD)]
-
-* `.gitignore`
-    - Part of Git, includes files and folders to be ignored by Git version control (TBD)
-
-* `capstine_env.yml`
-    - Conda environment specification (TBD)
-
-* `Makefile`
-    - Automation script for the project (TBD)
 
 * `README.md`
     - https://github.com/michaeldorado/capstone/edit/main/README.md
-
-* `LICENSE`
-    - Project license (TBD)
-
-### Dataset
 
 - https://drive.google.com/file/d/1rRBdXpF4gHcNwsWSMjXkNnBixUPrWxO_/view?usp=sharing
 
