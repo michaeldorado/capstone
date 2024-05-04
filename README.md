@@ -46,7 +46,7 @@ The dataset used for this notebook was published by the National Renewable Energ
 - From the plotted chart we can visualize the future trend, 2023 through 2035, is a positive trend, with a (m = 25).
 
 ## Pytorch Time Series Forecasting Findings
-- The Mean Squared Error (MSE) on the testing data was approximately 0.277397. 
+- The Mean Squared Error (MSE) on the testing data was approximately The Mean Squared Error (MSE) on the testing data was approximately 213125136.
 - From the plotted chart we can visualize the trend of the number of predicted AFS over the years 2023 through 2035. It is a positive with a (m = 0.1).
 
 ## Considerations
